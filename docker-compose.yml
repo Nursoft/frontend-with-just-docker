@@ -1,0 +1,12 @@
+version: '3.6'
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: .dockerfile
+    volumes:
+      - type: bind
+        source: ./project/
+        target: /home/user/project/
+    ports:
+      - "8080:8080"

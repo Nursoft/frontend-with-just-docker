@@ -1,0 +1,21 @@
+{
+  "name": "@nursoft/frontend",
+  "version": "19.1.0",
+  "description": "Nursoft frontend template",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev:watch": "echo 'this must be configured'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nursoft/frontend-with-just-docker"
+  },
+  "author": "Nursoft DevOps",
+  "license": "UNLICENSED",
+  "devDependencies": {
+
+  },
+  "dependencies": {
+
+  }
+}
